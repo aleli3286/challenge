@@ -14,8 +14,7 @@ SET time_zone = "+00:00";
 
 CREATE DATABASE IF NOT EXISTS `petstore` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `petstore`;
-CREATE USER 'petstore'@'localhost' IDENTIFIED BY 'b3EsQhrNapKh';
-GRANT ALL PRIVILEGES ON petstore.* TO 'petstore'@'localhost' IDENTIFIED BY 'b3EsQhrNapKh';
+
 
 --
 -- Database: `petstore`
